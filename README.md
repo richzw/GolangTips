@@ -2,13 +2,15 @@
 
 ### Resources
 
--[LeetCode by Go](https://books.halfrost.com/leetcode/ChapterOne/)
+- [LeetCode by Go](https://books.halfrost.com/leetcode/ChapterOne/)
+
 
 ### Talks
 
--[Best of 2019 in Tech Talks](https://copyconstruct.medium.com/best-of-2019-in-tech-talks-bac697c3ee13)
+- [Best of 2019 in Tech Talks](https://copyconstruct.medium.com/best-of-2019-in-tech-talks-bac697c3ee13)
+- [Profiling Techniques](https://www.youtube.com/watch?v=nok0aYiGiYA)
 
 
 ### Articles
 
--[Go net](https://strikefreedom.top/go-netpoll-io-multiplexing-reactor)
+- [Go net](https://strikefreedom.top/go-netpoll-io-multiplexing-reactor)
