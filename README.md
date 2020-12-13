@@ -3,6 +3,7 @@
 ### Resources
 
 - [LeetCode by Go](https://books.halfrost.com/leetcode/ChapterOne/)
+- [Talk Go](https://github.com/talkgo/night)
 
 
 ### Talks
