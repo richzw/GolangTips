@@ -13,6 +13,7 @@
 - [Best of 2019 in Tech Talks](https://copyconstruct.medium.com/best-of-2019-in-tech-talks-bac697c3ee13)
 - [Profiling Techniques](https://www.youtube.com/watch?v=nok0aYiGiYA)
 - [Real-world Go Concurrency Bug](https://www.bilibili.com/video/BV1SJ411w7Ue)
+- [Mechanical Sympathy in Go](https://www.youtube.com/watch?v=cetmDfqr2BU&feature=youtu.be)
 
 
 ### Articles
