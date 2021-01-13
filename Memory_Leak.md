@@ -54,6 +54,59 @@ func g(s1 []int) {
 }
 ```
 
+- Caused by Not Resetting Pointers in Lost Slice Elements
+
+```go
+func h() []*int {
+	s := []*int{new(int), new(int), new(int), new(int)}
+	// do something with s ...
+
+	return s[1:3:3]
+}
+```
+
+solve it
+
+```go
+func h() []*int {
+	s := []*int{new(int), new(int), new(int), new(int)}
+	// do something with s ...
+
+	// Reset pointer values.
+	s[0], s[len(s)-1] = nil, nil
+	return s[1:3:3]
+}
+```
+
+- Caused by Hanging Goroutines
+
+- Caused by Not Stopping `time.Ticker` Values Which Are Not Used Any More
+
+- Caused by Using Finalizers Improperly
+
+```go
+func memoryLeaking() {
+	type T struct {
+		v [1<<20]int
+		t *T
+	}
+
+	var finalizer = func(t *T) {
+		 fmt.Println("finalizer called")
+	}
+
+	var x, y T
+
+	// The SetFinalizer call makes x escape to heap.
+	runtime.SetFinalizer(&x, finalizer)
+
+	// The following line forms a cyclic reference
+	// group with two members, x and y.
+	// This causes x and y are not collectable.
+	x.t, y.t = &y, &x // y also escapes to heap.
+}
+```
+
 
 
 
