@@ -2,6 +2,8 @@
 
 ### Resources
 
+- [Go Some Basic](https://medium.com/@blanchon.vincent)
+- [Go Questions](https://www.bookstack.cn/read/qcrao-Go-Questions/interface-Go%20%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%B8%AD%E5%AD%90%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%85%B3%E7%B3%BB.md)
 - [Go under the hood](https://golang.design/under-the-hood/)
 - [Go设计与实现](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-timer/)
 - [LeetCode by Go](https://books.halfrost.com/leetcode/ChapterOne/)
