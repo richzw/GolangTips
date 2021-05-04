@@ -21,3 +21,7 @@
 ### Articles
 
 - [Go net](https://strikefreedom.top/go-netpoll-io-multiplexing-reactor)
+
+### K8s
+
+- [k8s network model](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
