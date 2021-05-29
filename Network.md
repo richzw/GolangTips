@@ -26,3 +26,8 @@ func (c *Client) drainBody(body io.ReadCloser) {
 	}
 }
 ```
+
+- golang的net如何对于epoll进行封装，使用上看似通过过程呢？
+
+- 所有的网络操作以网络描述符netFD为中心实现，netFD与底层PollDesc结构绑定，当在一个netFD上读写遇到EAGAIN的错误的时候，把当前goroutine存储到这个netFD对应的PollDesc中，同时把goroutine给park
+- 直到这个netFD发生读写事件，才将该goroutine激活重新开始。在底层通知goroutine再次发生读写事件的方式就是epoll事件驱动机制。
