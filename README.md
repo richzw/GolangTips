@@ -8,6 +8,7 @@
 - [Go设计与实现](https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-timer/)
 - [LeetCode by Go](https://books.halfrost.com/leetcode/ChapterOne/)
 - [Talk Go](https://github.com/talkgo/night)
+- [Go Puzzles](https://talks.godoc.org/github.com/davecheney/presentations/gopher-puzzlers.slide#12)
 
 
 ### Talks
