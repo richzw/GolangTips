@@ -22,6 +22,7 @@
 ### Articles
 
 - [Go net](https://strikefreedom.top/go-netpoll-io-multiplexing-reactor)
+- [Go GMP](https://learnku.com/articles/41728)
 
 ### K8s
 
